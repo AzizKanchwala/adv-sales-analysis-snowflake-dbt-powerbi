@@ -1,0 +1,49 @@
+version: 2
+models:
+  - name: slv_salesfct
+    description: Transformed table containing sales data
+    columns:
+
+      - name: orderdate
+        tests:
+          - relationships:
+              to: ref('slv_calendarlkup')
+              field: date
+
+      - name: productkey
+        tests:
+          - relationships:
+              to: ref('slv_prodlkup')
+              field: productkey
+
+      - name: customerkey
+        tests:
+          - relationships:
+              to: ref('slv_customerlkup')
+              field: customerkey
+
+      - name: territorykey
+        tests:
+          - relationships:
+              to: source('analytics', 'territorylookup')
+              field: salesterritorykey
+
+  - name: slv_customerlkup
+    description: Transformed customer lookup table
+    columns:
+      - name: customerkey
+        tests:
+          - unique
+
+  - name: slv_prodlkup
+    description: Transformed product lookup table
+    columns:
+      - name: productkey
+        tests:
+          - unique
+    
+      - name: productsubcategorykey
+        tests:
+          - relationships:
+              to: source('analytics', 'productsubcategorylookup')
+              field: productsubcategorykey

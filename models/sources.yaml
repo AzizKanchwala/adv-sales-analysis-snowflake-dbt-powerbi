@@ -1,0 +1,65 @@
+version: 2
+sources:
+  - name: analytics
+    schema: adventureworks
+    tables:
+      - name: calendarlookup
+        identifier: calendarlookup
+
+      - name: customerlookup
+        identifier: customerlookup
+
+      - name: productcategorylookup
+        identifier: productcategorylookup
+        columns:
+          - name: productcategorykey
+            tests:
+              - unique
+
+      - name: productlookup
+        identifier: productlookup
+
+      - name: productsubcategorylookup
+        identifier: productsubcategorylookup
+        columns:
+          - name: productsubcategorykey
+            tests:
+              - unique
+          
+          - name: productcategorykey
+            tests:
+              - relationships:
+                  to: source('analytics', 'productcategorylookup')
+                  field: productcategorykey 
+
+      - name: returnsfact
+        identifier: returnsfact
+        columns:
+          - name: returndate
+            tests:
+              - relationships:
+                  to: source('analytics', 'calendarlookup')
+                  field: date
+          
+          - name: territorykey
+            tests:
+              - relationships:
+                  to: source('analytics', 'territorylookup')
+                  field: salesterritorykey
+
+          - name: productkey
+            tests:
+              - relationships:
+                  to: source('analytics', 'productlookup')
+                  field: productkey
+
+
+      - name: salesfact
+        identifier: salesfact
+
+      - name: territorylookup
+        identifier: territorylookup
+        columns:
+          - name: salesterritorykey
+            tests:
+              - unique
