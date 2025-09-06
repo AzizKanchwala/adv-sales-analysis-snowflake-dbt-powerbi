@@ -1,15 +1,16 @@
-Welcome to your new dbt project!
+Overview
+=============
+This is a project in which I analyse the sales and returns information for a certain company AdventureWorks based on a set of factors.
+These factors include:
 
-### Using the starter project
+1. Dates and Times
+2. Customer Information
+3. Product Information
+4. Territory Information.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Snowflake is used to store raw and processed data. It is also used to process all DAX queries from PowerBI.
+PowerBI is used for the visualisation purposes.
+dbt is used for all transformations.
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Screenshots of all the pages in the final Report.
+==================================================
