@@ -15,9 +15,10 @@ dbt is used for all transformations.
 Screenshots of all the pages in the final Report.
 ==================================================
 <p align="center">
-  <table>
-    <tr>
-      <td><img src="assets/map.png" alt="Right Image" width="700"/></td>
-    </tr>
-  </table>
+  <figure>
+    <img src="assets/map.png" alt="Map" width="700"/>
+    <figcaption style="text-align:center; font-style:italic; margin-top:8px;">
+      Figure 1: Map visualization
+    </figcaption>
+  </figure>
 </p>
