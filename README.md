@@ -14,3 +14,11 @@ dbt is used for all transformations.
 
 Screenshots of all the pages in the final Report.
 ==================================================
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="assets/custom_tooltip.png" alt="Left Image" width="300"/></td>
+      <td><img src="assets/map.png" alt="Right Image" width="300"/></td>
+    </tr>
+  </table>
+</p>
