@@ -18,7 +18,7 @@ Screenshots of all the pages in the final Report.
   <figure>
     <img src="assets/exec_dashboard.png" alt="Map" width="1200"/>
     <figcaption style="text-align:center; font-style:italic; margin-top:8px;">
-      Figure 1: Exec dashboard
+      <p align="center"><b>Figure 1: Executive Dashboard</b></p>
     </figcaption>
   </figure>
 </p>
@@ -27,7 +27,7 @@ Screenshots of all the pages in the final Report.
   <figure>
     <img src="assets/customer_detail.png" alt="Map" width="1200"/>
     <figcaption style="text-align:center; font-style:italic; margin-top:8px;">
-      Figure 2: Customer Detail
+      <p align="center"><b>Figure 2: Customer Detail</b></p>
     </figcaption>
   </figure>
 </p>
@@ -36,7 +36,7 @@ Screenshots of all the pages in the final Report.
   <figure>
     <img src="assets/product_detail.png" alt="Map" width="1200"/>
     <figcaption style="text-align:center; font-style:italic; margin-top:8px;">
-      Figure 3: Product Detail
+      <p align="center"><b>Figure 3: Product Detail</b></p>
     </figcaption>
   </figure>
 </p>
@@ -45,7 +45,7 @@ Screenshots of all the pages in the final Report.
   <figure>
     <img src="assets/map.png" alt="Map" width="1200"/>
     <figcaption style="text-align:center; font-style:italic; margin-top:8px;">
-      Figure 4: Map Visual
+      <p align="center"><b>Figure 4: Map Visual</b></p>
     </figcaption>
   </figure>
 </p>
@@ -54,7 +54,7 @@ Screenshots of all the pages in the final Report.
   <figure>
     <img src="assets/custom_tooltip.png" alt="Map" width="1200"/>
     <figcaption style="text-align:center; font-style:italic; margin-top:8px;">
-      Figure 1: Custom Tooltip
+      <p align="center"><b>Figure 5: Custom Tooltip</b></p>
     </figcaption>
   </figure>
 </p>
