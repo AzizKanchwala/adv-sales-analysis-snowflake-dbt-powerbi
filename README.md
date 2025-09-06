@@ -18,7 +18,7 @@ Screenshots of all the pages in the final Report.
   <table>
     <tr>
       <td><img src="assets/custom_tooltip.png" alt="Left Image" width="300"/></td>
-      <td><img src="assets/map.png" alt="Right Image" width="300"/></td>
+      <td><img src="assets/map.png" alt="Right Image" width="600"/></td>
     </tr>
   </table>
 </p>
